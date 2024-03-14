@@ -1,0 +1,772 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'TT Hoves';
+    color: #222;
+}
+.logo{
+    width: calc(8.8vw + 182px);
+    margin-top: 37px;
+    margin-bottom: 85px;
+
+}
+section{
+    padding: 0 calc(10.6vw - 16px) 160px;
+    margin-bottom: 150px;
+}
+.course_info{
+    display: flex;
+    gap: 161px;
+    margin-bottom: 76px;
+
+}
+.course_data{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    font-size: 21px;
+    line-height: 140%;
+}
+.value{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 140%;
+}
+.html_css_js h1{
+    font-family: "Chava" ;
+    font-size: 80px;
+    line-height: 110%;
+    margin-bottom: 40px;
+}
+.html_css_js p{
+    font-size: 27px;
+    font-weight: 300;
+    line-height: 140%;
+    max-width: 1030px;
+    margin-bottom: 20px;
+
+}
+.btn_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 30px;
+}
+.primary{
+    width: 328px;
+    border-radius: 12px;
+    background: #6E3ABA;
+    padding: 20px 0;
+    border: 2px solid #6E3ABA;
+    color: white;
+    cursor: pointer;
+}
+.secondary{
+    width: 328px;
+    border-radius: 12px;
+    padding: 20px 0;
+    background-color: white;
+    border: 2px solid #6E3ABA;
+    color: #6E3ABA;
+    cursor: pointer;
+}
+.bg_img{
+    background-image: url(../img/html-css-js.svg);
+    background-repeat: no-repeat;
+    background-position: top 121px right 58px;
+    background-size: 30vw;    
+}
+
+
+.timer{
+    background-color: #6E3ABA;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.timer h2{
+    color: #FFF;
+    font-size: 52px;
+    font-family: 700;
+    letter-spacing: 1.56px;
+    text-transform: uppercase;
+    margin-bottom: 57px;
+    
+}
+.timer_container{
+    display: flex;
+    gap: 85px;
+    margin-bottom: 57px;
+}
+.timer_value{
+    color: #2F1D4E;
+    font-family: "Chava";
+    font-size: 174px;
+    line-height: 107.5%;
+    
+
+}
+.timer_text{
+    color: #2F1D4E;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 20px;
+    
+}
+
+.list_text_{
+/* Этот курс для тебя, если ты... */
+
+width: 769px;
+height: 136px;
+left: 120px;
+right: 391px;
+top: 0;
+bottom: 1116px;
+margin-top: 50px;
+
+/* ALL CAPS block header */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 58px;
+font-weight: 500;
+line-height: 68px;
+letter-spacing: 1%;
+text-align: left;
+text-transform: uppercase;
+}
+.backend-dev{
+    /* 27 9 */
+
+/* 27 9 */
+
+width: 287px;
+height: 287px;
+left: -18.57%;
+right: -18.1%;
+top: -23.33%;
+bottom: -13.33%;
+}
+
+.student{
+    /* 23 1 */
+   
+width: 254px;
+height: 254px;
+left: -15.24%;
+right: -5.71%;
+top: -14.76%;
+bottom: -6.19%;
+}
+.junior-dev{
+    /* Memoji Boys 8-6 */
+    
+width: 192px;
+height: 192px;
+left: 0%;
+right: 8.57%;
+top: 2.38%;
+bottom: 6.19%;
+}
+.prof_girl{
+    /* Memoji Girls 12-7 */
+    
+width: 238px;
+height: 238px;
+left: -6.67%;
+right: -6.67%;
+top: -13.81%;
+bottom: 0.48%;
+}
+
+
+
+.backend_text{
+/* Backend разработчик */
+
+width: 420px;
+height: 38px;
+/* Автолейаут */
+
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
+
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 27px;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+.backend_p{
+    /* Если ты уже владеешь навыками Backend разработки, то изучив HTML, CSS, JavaScript получишь базу, чтобы начать изучение frontend и встать на путь full-stack разработчика */
+
+width: 450px;
+height: 228px;
+/* Автолейаут */
+
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+
+/* text */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 27px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+.text_student{
+    /* СТУДЕНТ */
+
+width: 369px;
+height: 38px;
+/* Автолейаут */
+
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
+
+/* point header */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 27px;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+
+.p_student{
+    /* Профессия Веб-Верстальщика это отличная возможность для того, чтобы построить карьеру в сфере IT. В конце курса у тебя уже будет портфолио для трудоустройства */
+
+width: 450px;
+height: 190px;
+/* Автолейаут */
+
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+
+/* text */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 27px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.junior_text{
+    /* НАЧИНАЮЩИЙ ПРОГРАММИСТ */
+
+width: 318px;
+height: 76px;
+/* Автолейаут */
+
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
+/* point header */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 27px;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+.junior_p{
+    /* Тем, кто уже начал осваивать HTML и CSS, но хочет получить структурированные знания и конструктивный фидбек */
+
+width: 432px;
+height: 152px;
+/* Автолейаут */
+
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+/* text */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 27px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.prof_text{
+    /* ХОЧЕШЬ ОБУЧИТЬСЯ НОВОЙ ПРОФЕССИИ */
+
+width: 434px;
+height: 76px;
+/* Автолейаут */
+
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
+/* point header */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 27px;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+.prof_p{
+    /* Веб-Верстальщик является одной из самых перспективных профессий на сегодняшний день. Это идеальный старт для того чтобы начать карьеру frontend разработчика. */
+
+width: 477px;
+height: 190px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+/* text */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 27px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.list .list_container{
+   
+   
+   margin-top: 50px;
+
+}
+.list_cont{
+    display: flex;
+    gap: 200px 200px;
+    
+}
+.list_img{
+    display: flex;
+    gap: 200px 200px;
+}
+
+
+h3{
+    font-weight: 500;
+    font-size: calc(2.66vw + 23px);
+    margin-bottom: calc(5.5vw + 19px);
+    text-transform: uppercase;
+
+}
+.legend_wrapper{
+    display: flex;
+    gap: 20px 51px;
+
+}
+.legend_img{
+    width: calc(7.7vw + 299px);
+    flex-grow: 0;
+}
+.legend_text_wrapper {
+    flex-basis: 566px;
+    flex-grow: 100;
+}
+.legend_text_wrapper h3{
+    margin-bottom: calc(1.1vw + 5.8px);
+    font-size: calc(1.1vw +33.84);
+
+}
+.subtitle {
+    font-size: calc(1vw + 14.26px);
+    margin-bottom: calc(5.25 + 22.8px);
+}
+.legend_icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px 90px;
+
+}
+
+
+.border{
+    border: 2px solid black;
+    padding: calc(4.4vw + 23.4px) calc(2.7vw + 18px) calc(5vw);
+    position: relative;
+}
+.border h3{
+    margin-bottom: calc(1.8vw + 17px);
+}
+ul{
+    list-style-type: none;
+    margin-bottom: 34px;
+}
+li{
+    border-bottom: 1px solid #a1a1a1;
+    font-size: calc(0.6vw + 14px);
+    line-height: 140%;
+    padding: 24px 0;
+}
+.lesson .primary{
+    margin: 0 auto;
+    display: block;
+
+}
+.border + .primary{
+    margin-top: 30px;
+    display: none;
+}
+@media (max-width:600px) {
+    
+    .lesson + .primary{
+        
+        display: none;
+}
+    .border + .primary{
+    display: block;
+}
+}
+#corner{
+    width: calc(10vw);
+    position: absolute;
+    top: -2px;
+    right: -2px;
+}
+.bg{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.popUp{
+    background:#F0F7FD;
+    border-radius: 12px;
+
+    flex-basis:326px;
+    flex-shrink: 0;
+    flex-grow: 0.7;
+    min-height: 423px;
+    height: 62vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 30px;
+}
+.form h2{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-decoration: uppercase;
+
+}
+.form input{
+    display: block;
+    width: calc(6.7 + 242px) ;
+    
+    border: 0;
+    border-bottom: 1px solid #A1A1A185;
+    
+    font-size: 18px;
+    line-height: 27px;
+    padding-bottom: 10px;
+    outline: 0;
+    background:none;
+
+}
+.form input:first-child{
+    margin-bottom: 23px;
+}
+.closed{
+    display: none;
+}
+.list_text1_{
+    
+
+width: 1022px;
+height: 136px;
+left: 120px;
+right: 138px;
+top: 0;
+bottom: 638px;
+
+/* ALL CAPS block header */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 58px;
+font-weight: 500;
+line-height: 68px;
+letter-spacing: 1%;
+text-align: left;
+text-transform: uppercase;
+
+}
+.backend_text1{
+    /* — Обучаем с нуля */
+
+width: 272px;
+height: 38px;
+/* Автолейаут */
+
+flex-direction: row;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 20px;
+/* point header */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 27px;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+.backend_p1{
+    /* text */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 27px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+/* Начнешь с самых основ и будешь двигаться от простого к сложному, закрепляя каждый урок практикой */
+
+width: 400px;
+height: 152px;
+/* Автолейаут */
+
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+}
+.text_student1{
+   /* — Помогаем лучшим студентам с трудоустройством */
+position: static;
+width: 428px;
+height: 114px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
+
+/* point header */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 27px;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+}
+.p_student1{
+    /* Лучших студентов мы рекомендуем в ведущие веб-студии Узбекистана */
+position: static;
+width: 400px;
+height: 114px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+/* text */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 27px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+.junior_text1{
+    /* point header */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 27px;
+font-weight: 600;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+text-transform: uppercase;
+/* — 70% практики */
+position: static;
+width: 236px;
+height: 38px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 20px 0px;
+}
+.junior_p1{
+    /* text */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 27px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+
+/* Большая часть курса проходит в режиме live-коддинга, что позволяет сразу применить знания на практике и сформировать портфолио */
+position: static;
+width: 400px;
+height: 190px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 20px 0px;
+}
+
+.soc-paket{
+    display: flex
+}
+
+.diploma{
+    display: flex;
+}
+
+.onas-btn{
+    display: flex;
+}
