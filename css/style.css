@@ -430,6 +430,7 @@ text-align: left;
 }
 
 
+
 h3{
     font-weight: 500;
     font-size: calc(2.66vw + 23px);
@@ -449,6 +450,8 @@ h3{
 .legend_text_wrapper {
     flex-basis: 566px;
     flex-grow: 100;
+
+
 }
 .legend_text_wrapper h3{
     margin-bottom: calc(1.1vw + 5.8px);
@@ -463,7 +466,8 @@ h3{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    gap: 40px 90px;
+    gap: 90px 90px;
+    margin-top: 50px;
 
 }
 
@@ -769,4 +773,218 @@ margin: 20px 0px;
 
 .onas-btn{
     display: flex;
+}
+
+.diploma_text h2{
+    /* ALL CAPS block header */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 58px;
+font-weight: 500;
+line-height: 68px;
+letter-spacing: 1%;
+text-align: left;
+text-transform: uppercase;
+
+/* диплом об окончании курса */
+margin-bottom: 20px;
+width: 578px;
+height: 136px;
+left: 570px;
+right: 132px;
+margin-left: 19px;
+bottom: 177px;
+}
+.diploma_text p{
+    /* Он дополнит твое портфолио и выгодно выделит тебя на собеседовании в компанию мечты */
+
+    
+width: 514px;
+height: 114px;
+left: 570px;
+right: 196px;
+top: 156px;
+bottom: 43px;
+margin-left: 19px;
+/* text */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 27px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.diploma img{
+    /* image 1772 */
+
+width: 430px;
+height: 300px;
+
+}
+
+.hh_uz h2{
+width: 729px;
+height: 204px;
+left: 120px;
+right: 431px;
+bottom: 538px;
+margin-top: 0;
+
+/* ALL CAPS block header */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 58px;
+font-weight: 500;
+line-height: 68px;
+letter-spacing: 1%;
+text-align: left;
+text-transform: uppercase;
+}
+.hh_uz p{
+    /* По данным сайта hh.uz большие компании готовы платить начинающим Верстальщикам от 300$. Тебе лишь нужно набираться опыта и твой доход будет расти с каждым разом . А мы готовы тебе помочь в этом! */
+margin-top: 40px;
+margin-bottom: 36px;
+width: 876px;
+height: 152px;
+left: 121px;
+right: 283px;
+top: 244px;
+bottom: 346px;
+
+/* text */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 27px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+ 
+.hh_uz img{
+    /* pic_hh */
+
+width: 1065px;
+height: 310px;
+left: 120px;
+right: 95px;
+top: 432px;
+
+}
+
+.soc-no{
+    /* Кроме этого тебя ждут: */
+
+width: 828px;
+height: 68px;
+left: 115px;
+right: 337px;
+margin-bottom: 30px;
+bottom: 384px;
+
+/* ALL CAPS block header */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 58px;
+font-weight: 500;
+line-height: 68px;
+letter-spacing: 1%;
+text-align: left;
+text-transform: uppercase;
+}
+.soc-image{
+    /* pic_student-box */
+
+width: 579px;
+height: 354px;
+left: 61px;
+right: 640px;
+
+
+}
+#soc20{
+    /* 150$ от наших партнёров */
+
+width: 524px;
+height: 29px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 25px 0px;
+/* caption */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 21px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+#soc21{
+    /* Компьютер для каждого студента со всеми необходимыми программами */
+
+width: 478px;
+height: 58px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 25px 0px;
+
+/* caption */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 21px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
+}
+
+#soc22{
+    /* Набор студента - приветственное письмо с ссылкой на закрытую группу, канцелярские принадлежности, стикеры и партнерские промо-коды */
+
+width: 520px;
+height: 87px;
+/* Автолейаут */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 25px 0px;
+
+/* caption */
+color: rgb(34, 34, 34);
+font-family: TT Hoves;
+font-size: 21px;
+font-weight: 400;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: left;
 }
